@@ -344,7 +344,19 @@ const AgencyWebsite = () => {
           </div>
           
           <div className="flex justify-center mb-12">
-            <div className="bg-gray-900 rounded-full p-1">
+            {/* Dropdown for mobile */}
+            <div className="w-full max-w-xs md:hidden">
+              <select
+                value={activeTab}
+                onChange={e => setActiveTab(e.target.value)}
+                className="w-full px-6 py-3 rounded-full bg-gray-900 text-white font-semibold border border-gray-700 focus:ring-2 focus:ring-blue-600 transition-all"
+              >
+                <option value="development">Development Services</option>
+                <option value="marketing">Marketing Services</option>
+              </select>
+            </div>
+            {/* Buttons for desktop */}
+            <div className="hidden md:flex bg-gray-900 rounded-full p-1">
               <button
                 onClick={() => setActiveTab('development')}
                 className={`px-8 py-3 rounded-full font-semibold transition-all ${
@@ -401,7 +413,7 @@ const AgencyWebsite = () => {
             <div className="space-y-8">
               <div>
                 <h2 className="text-4xl lg:text-5xl font-bold text-white mb-6 tracking-widest uppercase">
-                  Why Choose DevMarket Pro?
+                  Why Choose Texsky - IT Consulting Services ?
                 </h2>
                 <p className="text-xl text-gray-300 leading-relaxed">
                   We combine technical excellence with strategic marketing expertise to deliver comprehensive solutions that drive measurable business growth. Our team of seasoned professionals brings years of industry experience to every project.
@@ -435,7 +447,7 @@ const AgencyWebsite = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-white mb-2">Proven Track Record</h3>
-                    <p className="text-gray-300">With over 500 successful projects and a 98% client satisfaction rate, we consistently deliver exceptional results.</p>
+                    <p className="text-gray-300">With over 100 successful projects and a 98% client satisfaction rate, we consistently deliver exceptional results.</p>
                   </div>
                 </div>
               </div>
