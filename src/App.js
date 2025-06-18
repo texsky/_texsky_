@@ -790,7 +790,7 @@ const AgencyWebsite = () => {
           </div>
           
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 DevMarket Pro. All rights reserved. Built with passion for excellence.</p>
+            <p>&copy; 2025 Texsky - IT consulting services. All rights reserved. Built with passion for excellence.</p>
           </div>
         </div>
       </footer>
