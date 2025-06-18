@@ -597,7 +597,7 @@ const AgencyWebsite = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-white">Email</div>
-                    <div className="text-gray-400">hello@devmarketpro.com</div>
+                    <div className="text-gray-400">texsky24@gmail.com</div>
                   </div>
                 </div>
                 
@@ -607,7 +607,7 @@ const AgencyWebsite = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-white">Phone</div>
-                    <div className="text-gray-400">+1 (555) 123-4567</div>
+                    <div className="text-gray-400">+91 9441262299</div>
                   </div>
                 </div>
                 
@@ -617,7 +617,7 @@ const AgencyWebsite = () => {
                   </div>
                   <div>
                     <div className="font-semibold text-white">Office</div>
-                    <div className="text-gray-400">123 Tech Street, Innovation City</div>
+                    <div className="text-gray-400">1-8-50, Hanamkonda, Warangal, Telangana - 506001</div>
                   </div>
                 </div>
               </div>
