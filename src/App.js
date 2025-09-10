@@ -746,7 +746,7 @@ const AgencyWebsite = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-4 gap-8">
             <div className="lg:col-span-2">
-              <h3 className="text-2xl font-bold mb-4 tracking-tight">DevMarket Pro</h3>
+              <h3 className="text-2xl font-bold mb-4 tracking-tight">TEXSKY - IT Consulting Services</h3>
               <p className="text-gray-400 mb-6 max-w-md">
                 Empowering businesses with cutting-edge software solutions and strategic marketing expertise. Your success is our passion.
               </p>
